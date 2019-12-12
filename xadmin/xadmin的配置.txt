@@ -1,0 +1,9 @@
+1. 下载xadmin源码,将本文件夹全部放置于项目根目录下
+2. 在settings的INSTALLED_APPS中添加
+    'crispy_forms',
+    'xadmin.apps.XAdminConfig',
+3. 安装xadmin的依赖包
+    (mxonline) G:\PycharmProjects\Jzy\07.xadmin\MxOnline\xadmin>pip install -r requirements.txt
+4. 通过migrate生成xadmin需要的表
+    先执行makemigrations看看报错不,发现有一个错误,No module named ‘DjangoUeditor’
+    解决办法: 注释掉xadmin.plugins.__init__.py中的 'ueditor'这一行
