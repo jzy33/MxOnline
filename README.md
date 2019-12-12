@@ -3,4 +3,4 @@
 
 完成度100%, idle是pycharm
 
-原项目出处(bobby老师)  https://coding.imooc.com/learn/list/368.html
+原项目出处(bobby老师)  https://coding.imooc.com/class/368.html
